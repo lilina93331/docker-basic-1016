@@ -1,0 +1,12 @@
+$ git clone https://github.com/lilina93331/docker-basic-1016.git
+cd docker-basic-1016/
+git add . 
+git config --global user.name "Luo"
+git commit -m "add folder"
+sudo apt install gh -y
+gh auth login
+git push
+git status
+git add .
+git commit -m 'add notes'
+git push
